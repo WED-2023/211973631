@@ -1,1 +1,7 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/89IMDEJr)
+Shimon Peres tribute website!
+-Contains the following sections: About me, My photos, My playlist, like button (shimon peres fb page), QR, Q&A, Contact (sends to my bgu mail)
+-Done with HTML5 and CSS3 elements
+-Phone optimized
+
+*side note: there are big gaps between the sections to limit the user's view on the desired section when clicking the different options on the top menu bar.
+Link to the website: https://wed-2023.github.io/211973631/
