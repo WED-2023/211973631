@@ -245,3 +245,130 @@ html {
   .hero-banner {
 	margin-top: 90px; /* Same as your top menu height */
   }
+
+
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+	/* Top Menu Full Width */
+	#menu {
+	  flex-direction: column;
+	  align-items: center;
+	  width: 100%;
+	  height: auto;
+	  padding: 12px 16px;
+	  background-color: #0277a0;
+	  box-sizing: border-box;
+	}
+  
+	.menu-left {
+	  flex-direction: row;
+	  align-items: center;
+	  justify-content: center;
+	  gap: 10px;
+	  width: 100%;
+	  margin-bottom: 12px;
+	}
+  
+	.profile-pic {
+	  height: 50px !important;
+	  width: 50px !important;
+	}
+  
+	.profile-name {
+	  font-size: 18px !important;
+	  text-align: center;
+	}
+  
+	/* Menu: full width & wrapped buttons */
+	.menu-right {
+	  display: flex;
+	  width: 100%;
+	  justify-content: center;
+	}
+  
+	.menu-right ul {
+	  display: flex;
+	  flex-wrap: wrap;
+	  justify-content: center;
+	  gap: 10px;
+	  width: 100%;
+	  padding: 0;
+	  margin: 0;
+	}
+  
+	.menu-right li {
+	  flex: 1 1 30%;
+	  display: flex;
+	  justify-content: center;
+	}
+  
+	.menu-right a {
+	  font-size: 14px;
+	  padding: 8px 12px;
+	  background-color: rgba(255, 255, 255, 0.15);
+	  border-radius: 6px;
+	  color: white;
+	  text-align: center;
+	  width: 100%;
+	  white-space: nowrap;
+	}
+  
+	/* Hide banner */
+	.hero-banner {
+	  display: none;
+	}
+  
+	/* Section spacing */
+	.section {
+	  padding: 60px 16px;
+	}
+  
+	.section h2 {
+	  font-size: 26px;
+	}
+  
+	.section p,
+	.section ul li {
+	  font-size: 15px;
+	}
+  
+	/* Gallery layout */
+	.gallery {
+	  grid-template-columns: 1fr;
+	  gap: 16px;
+	}
+  
+	.gallery img {
+	  width: 100%;
+	  max-height: 300px;
+	  object-fit: contain;
+	}
+  
+	/* Videos */
+	.video-grid {
+	  flex-direction: column;
+	  gap: 24px;
+	  padding: 0;
+	}
+  
+	.video-grid iframe {
+	  width: 100%;
+	  height: auto;
+	  aspect-ratio: 16 / 9;
+	  max-width: 100%;
+	}
+  
+	/* Contact Form */
+	.contact-form {
+	  padding: 20px;
+	}
+  
+	.qr-image {
+	  width: 140px;
+	}
+  }
+  
+  
+  
+  
